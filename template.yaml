@@ -11,7 +11,7 @@ metadata:
     - webapi
     - recommended
 spec:
-  owner: user:0GiS0
+  owner: user:fernandApplied
   type: service
   # these are the steps which are rendered in the frontend with the form input
   # https://backstage.io/docs/features/software-templates/input-examples
@@ -57,7 +57,8 @@ spec:
           ui:field: RepoUrlPicker          
           ui:options:            
             allowedOwners:
-              - 0GiS0
+              - fernandApplied
+              - FernandoLuglio
               - returngis
             allowedHosts:
               - github.com
