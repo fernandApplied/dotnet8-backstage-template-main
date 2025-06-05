@@ -33,19 +33,19 @@ spec:
           title: Description
           type: string
           description: A description for the component
-        #owner:
-        #  title: Select in which group the component will be created
-        #  type: string
-        #  description: The group the component belongs to
-        #  ui:field: MyGroupsPicker          
-        #system:
-        #  title: System
-        #  type: string
-        #  description: The system the component belongs to
-        #  ui:field: EntityPicker
-        #  ui:options:
-        #    catalogFilter:
-        #      kind: System
+        owner:
+          title: Select in which group the component will be created
+          type: string
+          description: The group the component belongs to
+          ui:field: MyGroupsPicker          
+        system:
+          title: System
+          type: string
+          description: The system the component belongs to
+          ui:field: EntityPicker
+          ui:options:
+            catalogFilter:
+              kind: System
     - title: Choose a destination
       required:
         - repoUrl
